@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<link rel="stylesheet" href="src/css/style.css">
+		<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+		<link href="https://fonts.googleapis.com/css2?family=Cardo&family=Dancing+Script:wght@700&display=swap" rel="stylesheet">
+		<link rel="shortcut icon" href="src/img/icono.ico" type="image/x-icon">
+		<title>Sara's Pan</title>
+	</head>
+	<body>
+		<header class="banner_top">
+			<nav id="left">
+				<a href="index.html">Inicio</a>
+				<span class="nav">|</span>
+				<a href="src/html/sobre_nosotros.html">Sobre Nosotros</a>
+				<span class="nav">|</span>
+				<a href="src/html/contacto.html">Contacto</a>
+			</nav>
+			<div id="logo">
+				<p class="logo"><a href="index.html">Sara's Pan</a></p>
+			</div>
+			<nav id="right">
+				<a href="src/html/productos.html">Nuestros Productos</a>
+				<span class="nav">|</span>
+				<a href="https://www.nutritienda.com/es/reposteria-y-panaderia?gclid=EAIaIQobChMI44G2ksnl8QIViajVCh3ZtA8sEAAYBCAAEgJsXPD_BwE">Compra Online</a>
+			</nav>
+		</header>
+		<div class="banner"></div>
+		<div class="cont_pricipal">
+			<div class="aside">
+				<div class="products">
+					<h2 class="subtitle">Nuestros Productos</h2>
+					<h3 class="subtitle_products">Bocaditos...</h3>
+					<p class="info_product">Dulces bocaditos recubiertos por una cobertura de delicioso chocolate con leche. Pequeños caprichos con textura esponjosa y suave del que no te cansarás de repetir. Perfectos para picar, ofrecer en fiestas o celebraciones y tener un detalle con tus invitados.</p>
+					<h3 class="subtitle_products">Panadería Dulcería...</h3>
+					<p class="info_product">Lo que conocemos como bollos suizos o bollos de leche son unos panecillos dulces de consistencia suave y sabor irresistible. Normalmente, estos bollos muy esponjosos para el desayuno o la merienda se sirven acompañados con té y alguna mermelada casera, aunque... ¡para gustos, los colores!</p>
+					<h3 class="subtitle_products">Café...</h3>
+					<p class="info_product">No hay nada más rico que comenzar la mañana sintiendo un aroma a café en grano que enamora a cualquiera. Es más, es una de las infusiones más consumidas, además del té.
+						¿Qué te parece cortar tu mañana de trabajo o estudio con un rico, pero potente toque de cafeína? Además, es una buena instancia para reunirse con amigos o familia y compartir buenos momentos.
+						</p>
+					<button class="button"><a href="src/html/productos.html">Ir al menú...</a></button>
+				</div>
+				<div class="notice">
+					<h2 class="subtitle">Historias de Pan</h2>
+					<p class="info_product">En cuanto al origen del pan, no se sabe cuándo comenzó a amasarse la harina, pero existen evidencias arqueológicas de que ya en la prehistoria, hacia el año 75.000 a.C., se molían semillas que mezcladas con agua formaban una masa que se cocía en forma de tortas.</p>
+					<button class="button"><a href="src/html/historia.html">Leer más...</a></button>
+				</div>
+			</div>
+			<div class="gallery">
+				<div class="photo_gallery">
+					<div class="arrow_left">
+						<i class="fas fa-chevron-left" onclick="left()"></i>
+					</div>
+					<div class="image_gallery">
+						<img id="img_gallery" src="src/img/gallery_index/photo1.jpg" alt="photo">
+					</div>
+					<div class="arrow_right">
+						<i class="fas fa-chevron-right" onclick="right()"></i>
+					</div>
+				</div>
+				<div class="info">
+					<h2 class="subtitle" id="title_gallery">Algunos de Nuestros Productos Estrella</h2>
+					<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet blanditiis architecto quasi, vitae dolorum quia, minima perferendis laboriosam eveniet cumque tempora cum nemo! Explicabo aut reprehenderit, officia recusandae atque dicta omnis culpa error natus magni aliquam esse at consectetur?</p>
+				</div>
+			</div>
+		</div>
+		<div class="splash"></div>
+		<footer>
+			<nav class="social_bar">
+				<a href="https://www.instagram.com/?hl=es"><i class="fab fa-instagram-square"></i></a>
+				<a href="https://www.facebook.com/"><i class="fab fa-facebook-square"></i></a>
+				<a href="https://twitter.com/?lang=es"><i class="fab fa-twitter-square"></i></a>
+				<a href="https://www.pinterest.es/"><i class="fab fa-pinterest-square"></i></a>
+			</nav>
+			<div class="copyright">
+				<p>CopyRight <i class="far fa-copyright"></i> 2021 - Todos los Derechos Reservados</p>
+			</div>
+		</footer>
+		<script src="src/js/gallery.js"></script>
+	</body>
+</html>
